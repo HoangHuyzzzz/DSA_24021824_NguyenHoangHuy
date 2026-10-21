@@ -104,11 +104,4 @@ struct QueueLinkedList {
     }
 };
 
-int main() {
-    QueueLinkedList q;
-    q.init();
-    q.enqueue(10); 
-    q.enqueue(20);
-    cout << "Queue LinkedList Dequeue: " << q.dequeue() << "\n";
-    return 0;
-}
+
